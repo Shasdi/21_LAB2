@@ -137,6 +137,7 @@ int main(void)
 	  }
 	  t_voltage = ((5.0/2820)*avgvoltage)*1000;
 	  t_temp = ((22.0/847)*avgtemp) + 273;
+	  HAL_Delay(1000);
   }
   /* USER CODE END 3 */
 }
